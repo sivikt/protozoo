@@ -1,0 +1,38 @@
+<serv-settings>
+	<props>
+		<property key="ftp_banner">FTP servAG v0.1 ready. You are welcome! Do something...</property>
+  		<property key="home_dir"> /home/sivikt/ </property>
+  		
+  		<property key="log">true</property>
+  		
+  		<property key="anonymous_name">anonymous</property>
+  		<property key="anonymous_enable">false</property>
+  		<property key="anonymous_home">/home/sivikt/</property>
+  		<property key="anonymous_mkd">false</property>
+  		<property key="anonymous_rmv">false</property>
+  		<property key="anonymous_upload">true</property>
+  		<property key="anonymous_no_pass">true</property>
+  		
+  		<property key="max_same_con">7</property>
+  		<property key="max_con">0</property>
+  		<property key="read">0</property>
+  		<property key="max_con">0</property>
+  		<property key="read">true</property>
+  		<property key="write">true</property>
+ 	</props>
+ 	
+ 	<users>
+ 	  	<user login="root">
+ 	  		<pass>a123</pass>
+ 	  		<home>/home/sivikt/!storage</home> 
+ 	  	</user>
+		<user login="guest">
+			<pass></pass>
+			<home> /home/sivikt/ </home>
+		</user>
+		<user login="anonym">
+			<pass></pass>
+			<home> /home/sivikt/ </home>
+		</user>
+ 	</users>
+</serv-settings>

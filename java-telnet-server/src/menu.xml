@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menubar name="mainMenu">
+	<menu name="file" text="File" mnemonic="M">
+		<menuitem name="start" text="Start" mnemonic="O" accelerator="control O"/> 
+		<menuitem name="stop" text="Stop" mnemonic="S" accelerator="control S"/>
+		
+		<menuitem name="separator"/>
+		<menuitem name="exit" text="Exit" accelerator="alt F4"/>
+	</menu>  
+</menubar>

@@ -1,0 +1,18 @@
+<serv-settings>
+	<props>
+		<property key="tn_banner">Telnet server telnetAG v0.1 ready. You are welcome! Do something...</property>
+		<property key="need_login">1</property>
+ 	</props>
+ 	
+ 	<users>
+ 	  	<user login="root">
+ 	  		<pass>a123</pass>
+ 	  	</user>
+		<user login="guest">
+			<pass>guest</pass>
+		</user>
+		<user login="anonym">
+			<pass>qwer</pass>
+		</user>
+ 	</users>
+</serv-settings>
