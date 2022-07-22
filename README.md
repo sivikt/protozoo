@@ -1,4 +1,4 @@
 protozoo
 ========
 
-A bundle of popular protocols written in different languages for the purpose of learning.
+A bundle of popular protocols (FTP, TELNET) written in different languages for the purpose of learning. And other client-server apps.
